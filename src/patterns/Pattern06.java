@@ -13,7 +13,7 @@ Difficulty: Easy
 link:
 */
 
-public class Pattern02 {
+public class Pattern06 {
 
     public static void main(String[] args) {
         for(int i=0; i<5; i++) {

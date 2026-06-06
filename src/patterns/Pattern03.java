@@ -3,22 +3,22 @@ package patterns;
 /*
 Problem:
 Print the following pattern
-F G H I J K
-F G H I J K
-F G H I J K
-F G H I J K
-F G H I J K
+4 4 4 4 4 4
+4 4 4 4 4 4
+4 4 4 4 4 4
+4 4 4 4 4 4
+4 4 4 4 4 4
 Platform: Practice
 Difficulty: Easy
 link:
 */
 
-public class Pattern02 {
+public class Pattern03 {
 
     public static void main(String[] args) {
         for(int i=0; i<5; i++) {
-            for(char j='F'; j<='K'; j++) {
-                System.out.print(j+" ");
+            for(int j=0; j<6; j++) {
+                System.out.print("4 ");
             }
             System.out.println();
         }
