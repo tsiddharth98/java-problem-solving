@@ -3,17 +3,17 @@ package patterns;
 /*
 Problem:
 Print the following pattern
-        *
-      * *
-    * * *
-  * * * *
-* * * * *
+        A
+      A B
+    A B C
+  A B C D
+A B C D E
 Platform: Practice
 Difficulty: Easy
 link:
 */
 
-public class Pattern15 {
+public class Pattern18 {
 
     public static void main(String[] args) {
         method1(5);
@@ -21,9 +21,9 @@ public class Pattern15 {
     }
 
     private static void method1(int n) {
-        for(int row=n;row>=1;row--) {
-            for(int col=1;col<=n;col++) {
-                if(col>=row) System.out.print("* ");
+        for(int row=5;row>=1;row--) {
+            for(int col=1;col<=5;col++) {
+                if(col>=row) System.out.print((char) ('A' + col - row) + " ");
                 else System.out.print("  ");
             }
             System.out.println();
@@ -36,7 +36,7 @@ public class Pattern15 {
                 System.out.print("  ");
             }
             for(int col=1;col<=row;col++) {
-                System.out.print("* ");
+                System.out.print((char)('A'+col-1)+" ");
             }
             System.out.println();
         }
