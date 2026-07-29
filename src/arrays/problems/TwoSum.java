@@ -1,4 +1,4 @@
-package arrays;
+package arrays.problems;
 
 /*
 Problem: Two Sum
