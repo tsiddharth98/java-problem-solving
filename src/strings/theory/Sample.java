@@ -1,4 +1,4 @@
-package strings;
+package strings.theory;
 
 /*
 Multiply Two Strings
